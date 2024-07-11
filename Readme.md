@@ -1,6 +1,12 @@
-Prerequisitos
-Tener instalado el nodejs
-Tener dockerizado el mongoDb y activo
+RestauranteApi
+---
+La aplicación registra los mensajes y entrega los mensajes
+
+---
+
+Prerequisitos:
+- Tener instalado el nodejs
+- Tener dockerizado el mongoDb y activo
 
 Una vez descargado el proyecto, abra terminal y escriba
 npm install
