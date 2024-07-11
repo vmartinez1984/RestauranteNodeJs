@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api rest de Restaurante</title>
+</head>
+<body>
+    <div>
+        <pre>
+            <code>
+curl --location 'http://127.0.0.1:8000/api/mensajes' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"mensaje": "Comida muy chida",
+"restaurante": "Cafeteria",
+"nombre": "Juan Hernandez",
+"correo": "ahal_tocob@hotmail.com",
+"telefono": "5532737357"
+}'
+</code>
+</pre>
+    </div>
+    <div>
+        <code>
+            curl --location 'http://127.0.0.1:8000/api/restaurantes/Cafeteria/mensajes'
+        </code>
+    </div>
+</body>
+</html>
